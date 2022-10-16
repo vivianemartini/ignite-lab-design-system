@@ -23,6 +23,7 @@ export default {
 } as Meta
 
 export const Default: StoryObj = {
+    /*
     play: async ({ canvasElement }) => {
         const canvas = within(canvasElement)
 
@@ -36,4 +37,5 @@ export const Default: StoryObj = {
         })
 
     }
+*/
 }

@@ -10,6 +10,7 @@ import axios from 'axios'
 
 export function SignIn(){
     //tip: write bollean variables as questions
+    
     const [isUserSignedIn, setIsUserSignedIn] = useState(false)
     
     async function handleSignIn(event: FormEvent){
@@ -22,7 +23,7 @@ export function SignIn(){
 
         setIsUserSignedIn(true)
     }
-
+    
     return (
         <div className='w-screen h-full bg-gray-900 flex flex-col items-center justify-center text-gray-100'>
         <header className='flex flex-col items-center'>
@@ -38,7 +39,7 @@ export function SignIn(){
         </header>
   
         <form onSubmit={handleSignIn} className='flex flex-col gap-4 items-stretch w-full max-w-sm mt-10'>
-            { isUserSignedIn && <Text>Login realizado!</Text>}
+          {/* { isUserSignedIn && <Text>Login realizado!</Text>} */}
 
           <label htmlFor="email" className='flex flex-col gap-3'>
               <Text className='font-semibold'>Endereço de e-mail</Text>
