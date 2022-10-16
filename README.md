@@ -1,6 +1,6 @@
 ## Ignite Lab Design System Rocketseat :rocket:
 
-You can check the live version [here](https://vivianemartini.github.io/ignite-lab-design-system/?path=/story/components-button--default)
+You can check the live version [here](https://vivianemartini.github.io/ignite-lab-design-system/?path=/story/pages-sign-in--default)
 
 ## What did we do?
 
